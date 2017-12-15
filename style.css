@@ -5,3 +5,16 @@
      
      
 }
+#tab{
+	
+	background-color: white;
+}
+#conteneur{
+	
+	height:500px;
+}
+.bordure{
+	padding-left : 2em;
+	padding-right : 2em;
+	
+}
