@@ -19,7 +19,7 @@
     <header>
       <nav>
         <div class="nav-wrapper blue z-depth-4">
-          <a href="index.html" class="brand-logo center"><img src="contenu/logo.png" alt="logo"></a>
+          <a href="index.html" class="brand-logo center"><img src="contenu/logo.png" alt="logo maison d'hôte"></a>
 
           <a href="#" data-activates="mobile-menu" class="button-collapse">
                             <i class="material-icons">menu</i>
@@ -39,13 +39,14 @@
       </nav>
     </header>
     <!--carousel images de la region-->
-    <div class="carousel">
+    <aside class="carousel">
+      <h4 class="titre">Notre région en image</h4>
       <a class="carousel-item" href="#one!"><img  src="contenu/le_nomade_sculture.jpg" alt="sculpture sur les remparts d'antibes"></a>
       <a class="carousel-item" href="#two!"><img  src="contenu/calanque.jpg" alt="calanque à marseille"></a>
       <a class="carousel-item" href="#three!"><img src="contenu/parc_mercantour.jpg" alt="photo parc du mercantour"></a>
       <a class="carousel-item" href="#four!"><img  src="contenu/antibes_neige.jpg" alt="Remparts d'Antibes avec montagnes enneigées en arriere plan"></a>
       <a class="carousel-item" href="#five!"><img  src="contenu/carte_paca.jpg" alt="carte de la region PACA"></a>
-    </div>
+    </aside>
     <!--tableau sur fond blanc desscription des activités par ville, le section accessibilité sert juste à tester l'implementation d'icones-->
     <section class="white">
       <table class="highlight responsive-table">
@@ -111,8 +112,10 @@
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Liens</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="https://fr-fr.facebook.com/">facebook</a> <img src="contenu/facebook.png" alt ="logo facebook"/></li>
-              <li><a class="grey-text text-lighten-3" href="https://twitter.com">twitter</a> <img src="contenu/twitter_logo.svg.png" alt="logo twitter"/></li>
+              <li><a class="grey-text text-lighten-3" href="https://fr-fr.facebook.com/">facebook</a> <img src="contenu/facebook.png" alt="logo facebook"
+                /></li>
+              <li><a class="grey-text text-lighten-3" href="https://twitter.com">twitter</a> <img src="contenu/twitter_logo.svg.png" alt="logo twitter"
+                /></li>
               <li><a class="grey-text text-lighten-3" href="mailto:MasProvencal@blabla.com">contactez nous par mail</a><i class="material-icons font-size:24px">email</i></li>
             </ul>
           </div>
@@ -125,16 +128,12 @@
       </div>
     </footer>
   </div>
- 
+  
   <!--Import jQuery before materialize.js-->
   <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script  src="js/materialize.min.js"></script>
   <script  src="js/caroussel.js"></script>
-  <script>
-    jQuery(document).ready(function ($) {
-      $(".button-collapse").sideNav();
-    });
-  </script>
+  <script  src="js/sidenav.js"></script>
 </body>
 
 </html>
